@@ -2,14 +2,21 @@
   "name": "new_project",
   "version": "1.0.0",
   "description": "A new backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Ashutosh Bhatt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
